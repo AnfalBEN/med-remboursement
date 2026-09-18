@@ -41,3 +41,46 @@ https://base-donnees-publique.medicaments.gouv.fr
 
 ## Auteur
 Anfal Bensaou — étudiante ingénieure, Polytech Nice Sophia (Systèmes Informatiques)
+
+
+---------------------------------------------------------------------------------------------------------
+
+# Med-Reimbursement
+
+Simple web application that allows users to search for a medication and find out whether it is reimbursed by the French Social Security system, and at what rate.
+
+##Context
+Personal project developed independently (with data review/validation by a pharmacy student), with the goal of providing an easy-to-use tool for accessing information that can be difficult for the general public to understand.
+
+##Objective
+Allow users to enter the name of a medication and instantly obtain:
+its reimbursement status (yes/no)
+the reimbursement rate (100%, 65%, 30%, 15%)
+its pharmaceutical form
+
+##Features (MVP)
+ -Search for a medication by name (with autocomplete if possible)
+ -Display the reimbursement rate
+ -Handle "medication not found" cases
+ 
+##Future Features (Bonus)
+ -Search by active ingredient
+ -Search history (local storage)
+ -Compare several generic medications
+ 
+##Data Source
+Public Database of Medicines (BDPM) — ANSM / HAS / Assurance Maladie
+https://base-donnees-publique.medicaments.gouv.fr
+(Data can be freely reused; source must be cited)
+
+##Tech Stack
+  -Backend: [Node.js/Express or Python/FastAPI]
+  -Frontend: [Angular or HTML/CSS/JS]
+  -Database: SQLite
+  -Containerization: Docker
+  
+##Installation
+  [To be completed]
+  
+##Author
+Anfal Bensaou — Engineering student, Polytech Nice Sophia (Computer Systems)
