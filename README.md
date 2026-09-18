@@ -1,7 +1,4 @@
-# med-remboursement
-Projet personnel visant à la fois à m'entraîner sur différentes technologies (C, Java, Web) et à répondre à un besoin concret du quotidien : savoir rapidement si un médicament est remboursé.
-
-# 💊 Med-Remboursement
+# Med-Remboursement
 
 Application web simple permettant de rechercher un médicament et de savoir 
 s'il est remboursé par la Sécurité sociale, et à quel taux.
